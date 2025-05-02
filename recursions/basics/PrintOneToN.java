@@ -1,4 +1,4 @@
-package Recursion.basics;
+package recursions.basics;
 
 /**
  * Print 1 to N using recursion

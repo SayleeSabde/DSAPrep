@@ -1,4 +1,4 @@
-package Recursion.basics;
+package recursions.basics;
 
 /**
  * Check if string is palindrome or not.

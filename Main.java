@@ -1,13 +1,7 @@
 import java.util.Scanner;
 
-import static Recursion.basics.FactorialOfNumbers.factorialOfNumber;
-import static Recursion.basics.FibonacciNumber.fibonacciNum;
-import static Recursion.basics.PrintNToOne.printNToOne;
-import static Recursion.basics.PrintOneToN.printOneToN;
-import static Recursion.basics.PrintOneToN.printOneToNUsingBackTracking;
-import static Recursion.basics.ReverseGivenArray.reverseArray;
-import static Recursion.basics.StringPalindromeCheck.isPalindrome;
-import static Recursion.basics.SumOfFirstNNaturalNumbers.sumOfNNumbers;
+import static recursions.basics.FibonacciNumber.fibonacciNum;
+import static recursions.basics.StringPalindromeCheck.isPalindrome;
 
 public class Main {
     public static void main(String[] args) {

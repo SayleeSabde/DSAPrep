@@ -1,4 +1,4 @@
-package Recursion.basics;
+package recursions.basics;
 
 /** Print nth fibonacci term 0based indexing
  *
