@@ -1,6 +1,7 @@
 import recursions.easy.Atoi;
 import recursions.easy.CountGoodNumbers;
 import recursions.easy.Power;
+import recursions.subsequences.*;
 
 import java.util.Stack;
 
@@ -8,8 +9,12 @@ import static recursions.easy.SortStack.sortStack;
 
 public class DsaMain {
     public static void main(String[] args) {
-        System.out.println(Power.myPow(2,5));
-        System.out.println(Atoi.atoi("1337c0d3"));
+        int[] arr = {4, 2, 10, 5, 1, 3};
+
+        var list = CombinationSumII.combinationSum(arr, 5);
+
+        System.out.println(list);
+
 
 
     }
