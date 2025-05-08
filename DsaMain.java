@@ -9,9 +9,9 @@ import static recursions.easy.SortStack.sortStack;
 
 public class DsaMain {
     public static void main(String[] args) {
-        int[] arr = {4, 2, 10, 5, 1, 3};
+        int[] arr = {1,2,2};
 
-        var list = CombinationSumII.combinationSum(arr, 5);
+        var list = LetterCombinations.letterCombinations("23");
 
         System.out.println(list);
 
