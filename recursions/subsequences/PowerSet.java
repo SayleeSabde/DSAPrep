@@ -15,6 +15,7 @@ public class PowerSet {
         for (int i = idx;i < nums.length;i++) {
             list.add(nums[i]);
             solve(i+1, nums, list, res);
+            list.stream().filter()
             list.remove(list.size()-1);
         }
     }

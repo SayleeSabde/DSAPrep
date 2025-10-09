@@ -10,14 +10,15 @@ import java.util.Set;
 public class WordBreak {
 
     private static boolean canBreak(String s, Set<String> wordDict, int start) {
-
         if (start == s.length()) {
             return true;
         }
-        for (String word: wordDict) {
-            if (s.startsWith(word, start)) {
-                //Explore p
-                if (canBreak(s, wordDict, start+word.length())) {
+        for (int end = start+1;end <= s.length();end++) {
+            String prefix = s.substring(start, end);
+            if (wordDict.contains(prefix)) {
+                System.out.println(prefix);
+                System.out.println(start + prefix.length());
+                if (canBreak(s, wordDict, start + prefix.length())) {
                     return true;
                 }
             }

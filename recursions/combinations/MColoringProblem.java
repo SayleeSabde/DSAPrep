@@ -53,3 +53,4 @@ public class MColoringProblem {
         return solve(0, graph, colors, m, n);
 
     }
+}

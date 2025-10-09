@@ -20,7 +20,7 @@ public class Atoi {
         if (digit < 0 || digit > 9)
             return sign ? Math.toIntExact(num) : -1*Math.toIntExact(num);
         num = num * 10 + digit;
-        if (num > Integer.MAX_VALUE) {
+        if (num > Integer.MAX_VALUE || num < Integer.MIN_VALUE) {
             num = sign ? Integer.MAX_VALUE: Integer.MIN_VALUE;
             return myAtoI(arr, index+1, sign, num);
         }

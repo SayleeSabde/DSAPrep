@@ -16,7 +16,7 @@ public class RatInMaze {
             return;
         }
         int x = grid[i][j];
-        grid[i][j] = 2;
+        grid[i][j] = 2; //mark visited
 
         dfs(grid, i-1, j, res, str+"U", n);
         dfs(grid, i+1, j, res, str+"D", n);
